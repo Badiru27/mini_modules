@@ -47,15 +47,15 @@ class _ExamTimeTableState extends State<ExamTimeTable> {
           size: 25,),
         backgroundColor: SecondaryColor2,
         onPressed: (){
-          return showDialog(
+          return /* showDialog(
               context: context,
               builder: (BuildContext context) {
                 return MyDialog();
-              });
+              }); */
 
 
 
-        //    navigateToAddExam(ExamDatabase('', '', '', '', '', ''));
+            navigateToAddExam(ExamDatabase('', '', '', '', '', ''));
         },
       ),
     );

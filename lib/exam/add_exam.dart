@@ -112,6 +112,16 @@ class _AddExamState extends State<AddExam> {
   }
 
   @override
+  void dispose() {
+
+    _dateController.dispose();
+    _fromTimeController.dispose();
+    _toTimeController.dispose();
+
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
 
     if (exam.id != null){
