@@ -1,6 +1,13 @@
 # squiry_mini_modules
 
-A new Flutter application.
+This is a mini module of an application we are trying to build.
+
+I am having issues with fixing bugs related to ShowTimePicker and ShowDatePicker. 
+
+When trying to update an already created exam table, the controllers are not displaying the selected date and time. Please kindly help in reviewing 
+
+Thanks
+
 
 ## Getting Started
 
